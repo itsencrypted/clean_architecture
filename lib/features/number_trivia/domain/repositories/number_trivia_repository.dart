@@ -8,6 +8,5 @@ abstract class NumberTriviaRepository {
   //This way we are not going to need to catch exceptions anywhere else in
   // the App then the repository.
   Future<Either<Failure, NumberTrivia>>getConcreteNumberTrivia(int number);
-
   Future<Either<Failure, NumberTrivia>>getRandomNumberTrivia();
 }
