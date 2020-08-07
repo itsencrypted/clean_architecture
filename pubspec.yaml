@@ -13,10 +13,10 @@ dependencies:
   get_it: ^2.0.1
 
   #State Management
-  flutter_bloc: ^0.21.0
+  flutter_bloc: ^6.0.0
 
   #Value equality
-  equatable: ^0.4.0
+  equatable: ^1.2.0
 
   #Functional Programming thingies (returns either or a Failure)
   dartz: ^0.8.6
